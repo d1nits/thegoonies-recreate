@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto-mono: "Roboto Mono";
+  --font-roboto: Roboto;
+  --font-crimson-text: "Crimson Text";
+  --font-source-code-pro: "Source Code Pro";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-5xl: 24px;
+  --font-size-xs: 12px;
+  --font-size-16xl: 35px;
+  --font-size-2xl: 21px;
+  --font-size-9xl: 28px;
+  --font-size-mid: 17px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --the-goonieswebflowio-nero: #fff;
+  --the-goonieswebflowio-black: #000;
+  --the-goonieswebflowio-black-50: rgba(0, 0, 0, 0.5);
+  --the-goonieswebflowio-nero-20: rgba(255, 255, 255, 0.2);
+
+  /* Gaps */
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-11xl: 30px;
+  --padding-12xs: 1px;
+  --padding-8xs: 5px;
+  --padding-xl: 20px;
+  --padding-2xs: 11px;
+  --padding-2xl: 21px;
+  --padding-23xl: 42px;
+  --padding-238xl: 257px;
+  --padding-21xl: 40px;
+  --padding-12xs-9: 0.9px;
+  --padding-9xs: 4px;
+  --padding-157xl-8: 176.8px;
+  --padding-91xl: 110px;
+}
