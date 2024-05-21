@@ -4,14 +4,13 @@ body {
 }
 
 :root {
-  /* fonts */
+  /* підєднання шрифтів й задання ім стилю, розміру*/
   --font-roboto-mono: "Roboto Mono";
   --font-roboto: Roboto;
   --font-crimson-text: "Crimson Text";
   --font-source-code-pro: "Source Code Pro";
   --font-montserrat: Montserrat;
 
-  /* font sizes */
   --font-size-xl: 20px;
   --font-size-sm: 14px;
   --font-size-5xl: 24px;
@@ -23,16 +22,15 @@ body {
   --font-size-21xl: 40px;
   --font-size-13xl: 32px;
 
-  /* Colors */
+  /* кольори */
   --the-goonieswebflowio-nero: #fff;
   --the-goonieswebflowio-black: #000;
   --the-goonieswebflowio-black-50: rgba(0, 0, 0, 0.5);
   --the-goonieswebflowio-nero-20: rgba(255, 255, 255, 0.2);
 
-  /* Gaps */
+  /* вналаштування відступів */
   --gap-xl: 20px;
 
-  /* Paddings */
   --padding-11xl: 30px;
   --padding-12xs: 1px;
   --padding-8xs: 5px;
