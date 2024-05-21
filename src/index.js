@@ -1,12 +1,13 @@
-import { StrictMode } from "react";
-import ReactDOM from "react-dom";
+$('a[href^="#"]').on("click", function (event) {
+  var target = $($(this).attr("href"));
 
-import App from "./App";
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-  rootElement,
-);
+  if (target.length) {
+    event.preventDefault();
+    $("html, body").animate(
+      {
+        scrollTop: target.offset().top,
+      },
+      2000,
+    ); //
+  }
+});

@@ -6,9 +6,10 @@
 
     <link rel="stylesheet" href="./src/global.css" />
     <link rel="stylesheet" href="./src/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./src/index.js"></script>
+
     
-
-
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Source Code Pro:wght@400;700&display=swap"
@@ -29,6 +30,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Crimson Text:wght@400&display=swap"
     />
+
   </head>
   <body>
     <div id="root">
@@ -41,7 +43,7 @@
             </section>
           </div>
           <div class="container-3">
-            <div class="container-4" id="container4">
+            <div class="container-4" id="bovduri">
               <img
                 class="container-5-icon"
                 alt=""
@@ -119,7 +121,7 @@
                 <img class="group-icon" alt="" src="./public/group@2x.png" />
               </div>
             </div>
-            <div class="container-12-child">
+                <div class="container-12-child" >
               <div class="frame-parent">
                 <div class="coin4-wrapper">
                   <div class="coin4">
@@ -171,7 +173,7 @@
               <div class="border-2-parent">
                 <div class="border-2">
                   <div class="container-16">
-                    <div class="container-17">
+                    <div class="container-17" id="Istochniki">
                       <div class="heading2">
                         <b class="menu-item">1985</b>
                       </div>
@@ -205,7 +207,7 @@
                 </div>
               </div>
               <div class="border-3-parent">
-                <div class="border-3">
+                <div class="border-3" id="Istochniki">
                   <img
                     class="steviespielbie-icon"
                     alt=""
@@ -452,8 +454,10 @@
         <div class="list-container">
           <div class="list">
             <div class="item-3" id="item3Container">
-              <div class="stochniki" id="stochnikiText">Істочники</div>
-              <div class="link-5"></div>
+              <div class="stochniki">Істочники</div>
+              <div class="link-5">
+                <a href="Istochniki">Істочники</a> 
+              </div>
               <div class="item-4" id="item4Container">
                 <div class="link-6">
                   <div class="galereya">Галерея</div>
@@ -463,12 +467,12 @@
             <div class="sub-list">
               <div class="item-2">
                 <div class="link-4">
-                  <div class="bovduri">Бовдури</div>
+                  <a href="#bovduri">Бовдури</a>
                 </div>
               </div>
               <div class="item">
                 <div class="link-3">
-                  <div class="sujet">Сюжет</div>
+                  <a href="#sujett">Сюжет</a>
                 </div>
                 <div class="margin">
                   <div class="background-2"></div>
@@ -478,10 +482,11 @@
           </div>
         </div>
       </section>
-      <section class="sujetztknuvshiszkonfskacusvohb">
-        <span class="sujetztknuvshiszkonfskacusvohb1">
+      <section id="sujett" class="sujett">
+        <span class="sujet1">
           <p class="p">СЮЖЕТ</p>
           <p class="blank-line">
+
             <span>
               <span>&nbsp;</span>
             </span>
@@ -506,19 +511,17 @@
           </p>
           <p class="p2">
             <span>
-              <span>штат Орегон, до заміського клубу, що розшир</span>
-              <b>юється,</b>
+              <span>штат Орегон, до заміського клубу, що розширюється,</span>
             </span>
           </p>
           <p class="p3">
             <span>
-              <b> група дітей, які називають себе «Бовдури»,</b>
+              <span> група дітей, які називають себе «Бовдури»,</span>
             </span>
           </p>
           <p class="p4">
             <span>
-              <b> збирається ра</b>
-              <span class="span">зом на останні вихідні.</span>
+              <span>збирається разом на останні вихідні.</span>
             </span>
           </p>
         </span>
@@ -588,19 +591,11 @@
       if (container8) {
         container8.addEventListener("click", function () {
           window.open(
-            "https://www.figma.com/design/FR6tFggIxWcD2x3ZK552U0/Untitled?node-id=92-27&t=UOw8veX4R2Arlir7-0"
+            <a href="index2.html">к</a>
           );
         });
       }
       
-      var container10 = document.getElementById("container10");
-      if (container10) {
-        container10.addEventListener("click", function () {
-          window.open(
-            "https://www.figma.com/design/FR6tFggIxWcD2x3ZK552U0/Untitled?node-id=95-86&t=UOw8veX4R2Arlir7-0"
-          );
-        });
-      }
       
       var linkSVG = document.getElementById("linkSVG");
       if (linkSVG) {
